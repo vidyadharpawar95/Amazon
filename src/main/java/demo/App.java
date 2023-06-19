@@ -10,7 +10,8 @@ public class App {
     public void getGreeting() throws InterruptedException, MalformedURLException {
         // Amazon obj= new Amazon(); //Initialize your test class
         //  w3WinHandle obj= new w3WinHandle();
-         hyperLinks obj= new hyperLinks();
+        // hyperLinks obj= new hyperLinks();
+       NestedFrames obj=new NestedFrames();
        
 
         //TODO: call your test case functions one after other here
