@@ -9,17 +9,13 @@ import java.net.MalformedURLException;
 public class App {
     public void getGreeting() throws InterruptedException, MalformedURLException {
         // Amazon obj= new Amazon(); //Initialize your test class
-     w3WinHandle obj= new w3WinHandle();
+        //  w3WinHandle obj= new w3WinHandle();
+         hyperLinks obj= new hyperLinks();
        
 
         //TODO: call your test case functions one after other here
-          //obj.testCase01();
-         try {
-            obj.testCase01();
-        } catch (IOException e) {
-           
-            e.printStackTrace();
-        }
+          obj.testCase01();
+        
         //END Tests
 
 
