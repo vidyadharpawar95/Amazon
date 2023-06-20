@@ -12,8 +12,8 @@ public class App {
         //  w3WinHandle obj= new w3WinHandle();
       // hyperLinks obj= new hyperLinks();
       //   NestedFrames obj=new NestedFrames();
-       Imdb_ratings obj= new Imdb_ratings();
-       
+      // Imdb_ratings obj= new Imdb_ratings();
+         Linkedin obj= new Linkedin();       
 
         //TODO: call your test case functions one after other here
           obj.testCase01();
